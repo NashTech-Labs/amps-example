@@ -1,11 +1,11 @@
-package com.example
+package com.example.amps.pubsub
 
-import com.example.amps.{AmpsHAClient, AmpsHandler}
-import com.example.utils.Constants._
+import com.example.amps.haclient.AmpsHAClient
+import com.example.utils.Constants.{CLIENT_NAME, MESSAGE, SERVER_IPS, TOPIC_NAME}
 
 import scala.util.{Failure, Success}
 
-object Main extends App {
+object PublisherSubscriber extends App {
 
   val ampsHAClient = new AmpsHAClient
   val hAClient = ampsHAClient.getConnection(CLIENT_NAME, SERVER_IPS)

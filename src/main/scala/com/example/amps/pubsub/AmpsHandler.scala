@@ -1,4 +1,4 @@
-package com.example.amps
+package com.example.amps.pubsub
 
 import com.crankuptheamps.client.HAClient
 

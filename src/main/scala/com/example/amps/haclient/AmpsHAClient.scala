@@ -1,4 +1,4 @@
-package com.example.amps
+package com.example.amps.haclient
 
 import com.crankuptheamps.client.{DefaultServerChooser, HAClient}
 
